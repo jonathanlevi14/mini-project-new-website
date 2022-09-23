@@ -1,10 +1,21 @@
 
 * {
-background-color: royalblue;
+margin: 0%;
 }
+
 header {
-  
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background: linear-gradient(45deg, yellow 0%, royalblue 75%);
 }
+header nav a {
+  font-size: larger;
+  text-decoration: none;
+}
+
+
+
 ul {
   text-align: right;
   color: red;
@@ -12,8 +23,36 @@ ul {
 
 li {
   display: inline;
+  padding: 0px 20px;
   list-style-type: none;
   font-size: 40;
+}
+
+figure {
+  height: 200 px;
+  width: 100%;
+  line-height: 200px;
+  background-color: royalblue;
+  background: linear-gradient(45deg, yellow 0%, royalblue 25%, yellow 100%);
+}
+
+.versus {
+  height: 50px;
+  background: linear-gradient(33deg, red 0%, black 50%, yellow 80%, royalblue);
+}
+
+section {
+  height: 300px;
+  width: 100%;
+  font-weight: bolder;
+  line-height: 50px;
+  background: linear-gradient(45deg, red 0%, black 90%);
+
+}
+
+footer {
+  background: linear-gradient(45deg, red 0%, black 75%);
+  color: yellow;
 }
 #main-image {
   width: 350px;
